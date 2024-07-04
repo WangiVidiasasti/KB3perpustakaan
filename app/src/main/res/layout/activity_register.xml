@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/ImageView1"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:background="@drawable/rectangle6" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="89dp"
+                android:layout_height="91dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/download1" />
+
+            <ImageView
+                android:id="@+id/ImageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ImageView1"
+                android:background="@drawable/rectangle11"/>
+
+            <ImageButton
+                android:id="@+id/imageButtonMore"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="13dp"
+                android:background="@drawable/menu" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="124dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="-58dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="MA CHUNG"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="118dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="-86dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="LIBRARY"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="118dp"
+                android:layout_marginLeft="130dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="MA CHUNG"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ImageView4"
+                android:layout_width="match_parent"
+                android:layout_height="254dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image29"
+                android:layout_below="@id/ImageView1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ImageView4"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Register"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/Edittext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView4"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="Username"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/Edittext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Edittext1"
+                android:fontFamily="@font/alata"
+                android:text="Password"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/Edittext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Edittext2"
+                android:fontFamily="@font/alata"
+                android:text="Program Studi"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:textColor="#FFFFFF"  />
+
+            <Button
+                android:id="@+id/Button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Edittext3"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#94AFF3"
+                android:fontFamily="@font/ramaraja"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Register" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
