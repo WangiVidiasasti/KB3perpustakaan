@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:background="@drawable/rectangle6" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="89dp"
+                android:layout_height="91dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/download1" />
+
+            <ImageButton
+                android:id="@+id/imageButtonMore"
+                android:layout_width="47dp"
+                android:layout_height="42dp"
+                android:layout_alignTop="@+id/imageView1"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/menu" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="118dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="-86dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="LIBRARY"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textVieww"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="118dp"
+                android:layout_marginLeft="130dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Ma Chung"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/rectangle3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/bgbirumember" />
+
+            <Button
+                android:id="@+id/button_member"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="140dp"
+                android:backgroundTint="#CCCCCC"
+                android:fontFamily="@font/abhaya_libre_extrabold"
+                android:gravity="left"
+                android:text="Member"
+                android:textColorLink="#EFEFEF"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/button_angkatan_2020"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_member"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="#CCCCCC"
+                android:fontFamily="@font/abhaya_libre_extrabold"
+                android:gravity="left"
+                android:text="Angkatan 2020"
+                android:textColorLink="#ECECEC"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/button_angkatan_2021"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_angkatan_2020"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="#CCCCCC"
+                android:fontFamily="@font/abhaya_libre_extrabold"
+                android:gravity="left"
+                android:text="Angkatan 2021"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/button_angkatan_2023"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_angkatan_2021"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#CCCCCC"
+                android:fontFamily="@font/abhaya_libre_extrabold"
+                android:gravity="left"
+                android:text="Angkatan 2023"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+            <TextView
+                android:id="@+id/textView_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="420dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:text="Member Angkatan 2021"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Abednego"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="1dp"
+                android:backgroundTint="#B5B3B3"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:onClick="profile"
+                android:text="Abednego Jose Fernando"
+                android:textColor="#000000"
+                android:textColorLink="#B5B1B1" />
+
+            <Button
+                android:id="@+id/Stefanus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Abednego"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="1dp"
+                android:backgroundTint="#B5B3B3"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="Stefanus Christian Gunawan"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/Andy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Stefanus"
+                android:fontFamily="@font/alata"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="1dp"
+                android:backgroundTint="#BDB7B7"
+                android:gravity="left"
+                android:text="Andy Setyawan"
+                android:textColor="#000000"/>
+
+
+            <Button
+                android:id="@+id/Wangi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Andy"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/alata"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:gravity="left"
+                android:text="Wangi Vidiastati"
+                android:textColor="#000000"
+                android:onClick="profile3"/>
+
+            <Button
+                android:id="@+id/Graciella"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:layout_below="@id/Wangi"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:gravity="left"
+                android:text="Graciella Prayitna"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/Jonathan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Graciella"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/alata"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:gravity="left"
+                android:text="Jonathan Charles Nugraha"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/Kamila"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Jonathan"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/alata"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:gravity="left"
+                android:text="Kamila Mariska Priskila"
+                android:textColor="#000000"
+                android:onClick="profile2"/>
+
+            <Button
+                android:id="@+id/Wahyu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Kamila"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/alata"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:gravity="left"
+                android:text="Wahyu Utami Ningtris"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/Adinda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Wahyu"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/alata"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:gravity="left"
+                android:text="Adinda Abelia"
+                android:textColor="#000000"
+                android:onClick="profile4"/>
+
+            <Button
+                android:id="@+id/Philip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Adinda"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/alata"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:gravity="left"
+                android:text="Philip Nathanael"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/Ruben"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Philip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/alata"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:gravity="left"
+                android:text="Ruben Dwijaya"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/Monica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Ruben"
+                android:fontFamily="@font/alata"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:gravity="left"
+                android:text="Monica Mey"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/Michael"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Monica"
+                android:fontFamily="@font/alata"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:gravity="left"
+                android:text="Michael Caesario"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/Fava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Michael"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#B5B3B3"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="Haveiszal"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:id="@+id/bgbiru"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_below="@+id/Fava"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/bgbiru2" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bgbiru"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="-580dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:gravity="center"
+                android:text="'Without Libraries what have we? We have no past and no future'"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView30"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:gravity="center"
+                android:text="Ray Badbury"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView31"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:gravity="center"
+                android:text="Find Us"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView32"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:gravity="center"
+                android:text="Gedung Rnd lantai 1-2"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView33"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:gravity="center"
+                android:text="Universitas Ma Chung"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView34"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:gravity="center"
+                android:text="Kota Malang, Jawa Timur"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView35"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:gravity="center"
+                android:text="Social Media"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView36"
+                android:layout_marginTop="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/instagram"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="120dp"
+                        android:background="@drawable/instagram" />
+
+
+                    <ImageView
+                        android:id="@+id/youtube"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="0dp"
+                        android:background="@drawable/youtube" />
+
+                    <ImageView
+                        android:id="@+id/tiktok"
+                        android:layout_width="43dp"
+                        android:layout_height="48dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="0dp"
+                        android:background="@drawable/tiktok" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

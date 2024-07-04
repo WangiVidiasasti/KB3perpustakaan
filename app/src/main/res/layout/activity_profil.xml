@@ -5,19 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
-    tools:context=".MainActivity">
+    tools:context=".profil">
 
     <ScrollView
-        android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4">
 
         <RelativeLayout
-            android:id="@+id/relativeLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -36,27 +33,16 @@
 
             <ImageButton
                 android:id="@+id/imageButtonMore"
-                android:layout_width="70dp"
-                android:layout_height="60dp"
+                android:layout_width="47dp"
+                android:layout_height="42dp"
                 android:layout_alignTop="@+id/imageView1"
                 android:layout_alignParentEnd="true"
-                android:layout_marginTop="2dp"
-                android:layout_marginEnd="13dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="12dp"
                 android:background="@drawable/menu" />
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="172dp"
-                android:layout_height="262dp"
-                android:layout_below="@+id/imageButtonMore"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="70dp"
-                android:layout_marginEnd="124dp"
-                android:background="@drawable/image2" />
-
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageView2"
@@ -70,95 +56,156 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/textVieww"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textView6"
+                android:layout_below="@+id/textView"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="118dp"
                 android:layout_marginLeft="130dp"
                 android:fontFamily="@font/abhaya_libre_semibold"
-                android:text="MA CHUNG"
+                android:text="Ma Chung"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
 
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/abed" />
+
             <TextView
-                android:id="@+id/textView1"
-                android:layout_width="match_parent"
+                android:id="@+id/Nama"
+                android:layout_width="364dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/imageView3"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/alata"
-                android:gravity="center"
-                android:text="Bahan Ajar Pengantar Sistem Informasi"
-                android:textSize="20dp"
+                android:layout_below="@+id/imageView25"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Nama Lengkap: Abednego Jose Fernando"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView2"
-                android:layout_width="399dp"
+                android:id="@+id/Nim"
+                android:layout_width="364dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:textSize="16dp"
-                android:layout_below="@id/textView1"
-                android:fontFamily="@font/alata"
-                android:layout_marginTop="20dp"
-                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+                android:layout_below="@+id/Nama"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="NIM : 322010016"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
+                android:id="@+id/prodi"
+                android:layout_width="364dp"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_below="@id/textView2"
-                android:layout_marginTop="20dp"
-                android:text="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32."
-                android:fontFamily="@font/alata" />
+                android:layout_below="@+id/Nim"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Program Studi : Sistem Informasi"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
+                android:id="@+id/ttl"
+                android:layout_width="364dp"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_below="@id/textView3"
-                android:text="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
-                android:fontFamily="@font/alata" />
+                android:layout_below="@+id/prodi"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Tempat,tanggal lahir : Surabaya,01 Desember 1900"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView5"
-                android:layout_width="match_parent"
+                android:id="@+id/nohp"
+                android:layout_width="364dp"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_below="@id/textView4"
-                android:layout_marginTop="20dp"
-                android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
-                android:fontFamily="@font/alata" />
+                android:layout_below="@+id/ttl"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="No Handphone : 083238439405"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/jk"
+                android:layout_width="364dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nohp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Jenis Kelamin : LAKIK"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="364dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jk"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Status Mahasiswa : Aktif"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/motto"
+                android:layout_width="364dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
+                android:text="Motto : Yang berat bukan rindu, tapi kak gem. PAHAM !!"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/bgbiru"
                 android:layout_width="match_parent"
                 android:layout_height="600dp"
-                android:layout_below="@+id/textView5"
-                android:layout_marginTop="40dp"
+                android:layout_below="@+id/status"
+                android:layout_marginTop="80dp"
                 android:background="@drawable/bgbiru2" />
 
             <TextView
                 android:id="@+id/textView30"
                 android:layout_width="317dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
-                android:layout_below="@+id/textView5"
+                android:layout_below="@+id/bgbiru"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="70dp"
-                android:fontFamily="@font/alata"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="-580dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
                 android:gravity="center"
                 android:text="'Without Libraries what have we? We have no past and no future'"
                 android:textColor="#FFFFFF"
@@ -168,41 +215,41 @@
                 android:id="@+id/textView31"
                 android:layout_width="317dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
                 android:layout_below="@+id/textView30"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/alata"
                 android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
                 android:gravity="center"
                 android:text="Ray Badbury"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView32"
                 android:layout_width="317dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
                 android:layout_below="@+id/textView31"
-                android:layout_marginTop="100dp"
-                android:fontFamily="@font/alata"
                 android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
                 android:gravity="center"
                 android:text="Find Us"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView33"
                 android:layout_width="317dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
                 android:layout_below="@+id/textView32"
-                android:layout_marginTop="15dp"
-                android:fontFamily="@font/alata"
                 android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
                 android:gravity="center"
                 android:text="Gedung Rnd lantai 1-2"
                 android:textColor="#FFFFFF"
@@ -212,11 +259,11 @@
                 android:id="@+id/textView34"
                 android:layout_width="317dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
                 android:layout_below="@+id/textView33"
-                android:layout_marginTop="0dp"
-                android:fontFamily="@font/alata"
                 android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
                 android:gravity="center"
                 android:text="Universitas Ma Chung"
                 android:textColor="#FFFFFF"
@@ -226,11 +273,11 @@
                 android:id="@+id/textView35"
                 android:layout_width="317dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
                 android:layout_below="@+id/textView34"
                 android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
                 android:layout_marginTop="0dp"
-                android:fontFamily="@font/alata"
+                android:fontFamily="@font/abhaya_libre_semibold"
                 android:gravity="center"
                 android:text="Kota Malang, Jawa Timur"
                 android:textColor="#FFFFFF"
@@ -240,22 +287,21 @@
                 android:id="@+id/textView36"
                 android:layout_width="317dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
                 android:layout_below="@+id/textView35"
-                android:layout_marginTop="100dp"
-                android:fontFamily="@font/alata"
                 android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/abhaya_libre_semibold"
                 android:gravity="center"
                 android:text="Social Media"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/textView36"
-                android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp">
 
 
@@ -268,9 +314,9 @@
                         android:id="@+id/instagram"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
                         android:layout_gravity="center"
                         android:layout_marginStart="120dp"
-                        android:layout_centerHorizontal="true"
                         android:background="@drawable/instagram" />
 
 
@@ -285,18 +331,19 @@
 
                     <ImageView
                         android:id="@+id/tiktok"
-                        android:layout_width="42dp"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
+                        android:layout_width="43dp"
+                        android:layout_height="48dp"
                         android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
                         android:layout_marginStart="0dp"
                         android:background="@drawable/tiktok" />
-
 
                 </LinearLayout>
             </HorizontalScrollView>
 
 
         </RelativeLayout>
+
     </ScrollView>
+
 </RelativeLayout>

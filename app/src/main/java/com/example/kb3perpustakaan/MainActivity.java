@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
                 String password = etPassword.getText().toString();
 
                 if (db.checkUser(username, password)) {
+                    Intent intent = new Intent(MainActivity.this, Homepage.class);
+                    startActivity(intent);
                     Toast.makeText(MainActivity.this, "Login successful " + username, Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(MainActivity.this, "Invalid username or password", Toast.LENGTH_SHORT).show();
@@ -44,10 +46,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, activity_register.class));
             }
-            public void Login(View view) {
-                Intent intent = new Intent(MainActivity.this, Homepage.class);
-                startActivity(intent);
-            }
         });
     }
 }
+

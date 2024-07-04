@@ -393,7 +393,8 @@
                 android:layout_below="@+id/textView17"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/member" />
+                android:background="@drawable/member"
+                android:onClick="Member"/>
 
             <TextView
                 android:id="@+id/textView18"
