@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">KB3perpustakaan</string>
+    <string-array name="programstudi.array">
+        <item>Manajemen</item>
+        <item>DKV</item>
+        <item>Sistem Informasi</item>
+        <item>Farmasi</item>
+        <item>Teknik Industri</item>
+        <item>Teknik Informatika</item>
+    </string-array>
 </resources>

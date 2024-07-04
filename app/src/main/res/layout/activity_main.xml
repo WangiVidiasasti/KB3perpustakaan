@@ -7,10 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ScrollView
-        android:id="@+id/scrollView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+
 
         <RelativeLayout
             android:id="@+id/relativeLayout"
@@ -109,7 +106,7 @@
                 android:textSize="20dp" />
 
             <EditText
-                android:id="@+id/Edittext1"
+                android:id="@+id/etUsername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/textView4"
@@ -120,10 +117,10 @@
                 android:textColor="@color/white" />
 
             <EditText
-                android:id="@+id/Edittext2"
+                android:id="@+id/etPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/Edittext1"
+                android:layout_below="@id/etUsername"
                 android:fontFamily="@font/alata"
                 android:text="Password"
                 android:layout_marginTop="10dp"
@@ -131,10 +128,10 @@
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/Button3"
+                android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/Edittext2"
+                android:layout_below="@id/etPassword"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="#94AFF3"
                 android:fontFamily="@font/ramaraja"
@@ -143,10 +140,10 @@
                 android:text="Login" />
 
             <Button
-                android:id="@+id/Button4"
+                android:id="@+id/btnRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/Button3"
+                android:layout_below="@id/btnLogin"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="#94AFF3"
                 android:fontFamily="@font/ramaraja"
@@ -155,6 +152,5 @@
                 android:text="Register"
                 android:textSize="20dp" />
         </RelativeLayout>
-    </ScrollView>
 
 </RelativeLayout>
