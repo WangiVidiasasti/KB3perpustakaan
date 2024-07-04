@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = etPassword.getText().toString();
 
                 if (db.checkUser(username, password)) {
-                    Toast.makeText(MainActivity.this, "Login successful " + username  , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Login successful " + username, Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(MainActivity.this, "Invalid username or password", Toast.LENGTH_SHORT).show();
                 }
@@ -42,7 +42,11 @@ public class MainActivity extends AppCompatActivity {
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,activity_register.class));
+                startActivity(new Intent(MainActivity.this, activity_register.class));
+            }
+            public void Login(View view) {
+                Intent intent = new Intent(MainActivity.this, Homepage.class);
+                startActivity(intent);
             }
         });
     }

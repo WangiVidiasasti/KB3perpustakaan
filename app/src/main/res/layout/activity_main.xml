@@ -137,7 +137,8 @@
                 android:fontFamily="@font/ramaraja"
                 android:textSize="20dp"
                 android:gravity="center"
-                android:text="Login" />
+                android:text="Login"
+                android:onClick="Login"/>
 
             <Button
                 android:id="@+id/btnRegister"
