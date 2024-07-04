@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navbar"
+    android:background="@drawable/rectangle11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="140dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="USING THE LIBRARY"
+                android:textColor="#193048"
+                android:textColorLink="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FDFDFD"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="BOOK LIST"
+                android:textColor="#182E45"
+                android:textColorLink="#EFEFEF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button22"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="CONTACT US"
+                android:textColor="#193048"
+                android:textColorLink="#EFEFEF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button33"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="MEMBER"
+                android:textColor="#192F47"
+                android:textColorLink="#EFEFEF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
